@@ -1,4 +1,5 @@
-
+// Author: Mitch Allen
+// File: parser.js
 
 import { readFileSync } from 'fs';
 import Ajv from 'ajv';

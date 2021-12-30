@@ -1,5 +1,5 @@
-
-
+// Author: Mitch Allen
+// File: index.js
 
 import { parser } from './parser.js';
 
@@ -12,8 +12,7 @@ function main() {
         return;
     }
 
-    let inputFile = args[0];
-    let schemaFile = args[1];
+    let [inputFile, schemaFile] = args;
 
     console.log(`input file: ${inputFile}`);
     console.log(`schema file: ${schemaFile}`);
